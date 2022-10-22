@@ -1,0 +1,64 @@
+[
+	{
+		"name": "Warren Buffet",
+		"company": "Berkshire Hathaway",
+		"cik": "0001336528",
+		"personInfo": {
+			"description": "Warren Edward Buffett is an American business magnate, investor, and philanthropist. He is currently the chairman and CEO of Berkshire Hathaway. He is one of the most successful investors in the world and has a net worth of over $95 billion as of October 2022.",
+			"image": "https://imageio.forbes.com/specials-images/imageserve/5babb7f1a7ea4342a948b79a/0x0.jpg?format=jpg&crop=2327,2329,x748,y1753,safe&height=416&width=416&fit=bounds"
+		}
+	},
+	{
+		"name": "Peter Thiel",
+		"company": "Founders Fund",
+		"cik": "0001336528",
+		"personInfo": {
+			"image": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQwRzEJ-OTxtFAfQ9PQ6QEZnyUZOJrTC2Czb7Hz6Bc8DRK7AXGyJiABq2eqAA2DGQB8"
+		}
+	},
+	{
+		"name": "George Soros",
+		"company": "Soros Fund Management LLC",
+		"cik": "0001336528",
+		"personInfo": {
+			"description": "George Soros is a Hungarian-born American businessman and philanthropist. As of March 2021, he had a net worth of US$8.6 billion, having donated more than $32 billion to the Open Society Foundations, of which $15 billion has already been distributed, representing 64% of his original fortune.",
+			"image": "https://imageio.forbes.com/specials-images/imageserve/5f4e72bdd82a882a3012a595/0x0.jpg?format=jpg&crop=2149,2149,x886,y515,safe&height=416&width=416&fit=bounds"
+		}
+	},
+	{
+		"name": "Jim Simons",
+		"company": "Renaissance Technologies Corp.",
+		"cik": "0001336528",
+		"personInfo": {
+			"description": "James Harris Simons is an American mathematician, billionaire hedge fund manager, and philanthropist. He is the founder of Renaissance Technologies, a quantitative hedge fund based in East Setauket, New York. He and his fund are known to be quantitative investors, using mathematical models and algorithms to make investment gains from market inefficiencies.",
+			"image": "https://imageio.forbes.com/specials-images/imageserve/5d8bd8326de3150009a51efb/0x0.jpg?format=jpg&crop=1209,1208,x1332,y0,safe&height=416&width=416&fit=bounds"
+		}
+	},
+	{
+		"name": "Bill Ackman",
+		"company": "Pershing Square Capital Management",
+		"cik": "0001336528",
+		"personInfo": {
+			"description": "William Albert Ackman is an American billionaire investor and hedge fund manager. He is the founder and CEO of Pershing Square Capital Management, a hedge fund management company. His investment approach makes him an activist investor. As of 2022, Ackman's net worth was estimated at $2.8 billion by Forbes.",
+			"image": "https://imageio.forbes.com/specials-images/imageserve/5e88e40d9d77ca0007ba9dcd/0x0.jpg?format=jpg&crop=2373,2371,x1451,y404,safe&height=416&width=416&fit=bounds"
+		}
+	},
+	{
+		"name": "Ray Dalio",
+		"company": "Bridgewater Associates",
+		"cik": "0001336528",
+		"personInfo": {
+			"description": "Raymond Thomas Daliois an American billionaire investor and hedge fund manager, who has served as co-chief investment officer of the world's largest hedge fund, Bridgewater Associates, since 1985. He founded Bridgewater in 1975 in New York. A $5 million investment from the World Bank's retirement fund was made within five years. His innovations are regarded as some of the best in the industry, having popularized many commonly used practices, such as risk parity, currency overlay, portable alpha and global inflation-indexed bond management.",
+			"image": "https://imageio.forbes.com/specials-images/imageserve/5ac959f74bbe6f2310f1e05c/0x0.jpg?format=jpg&crop=2549,2547,x657,y80,safe&height=416&width=416&fit=bounds"
+		}
+	},
+	{
+		"name": "Cathie Wood",
+		"company": "Ark Invest",
+		"cik": "0001336528",
+		"personInfo": {
+			"description": "Catherine Duddy Wood is an American investor and the founder, CEO and CIO of Ark Invest, an investment management firm.",
+			"image": "https://imageio.forbes.com/specials-images/imageserve/60aed26e000f48e9d5646d4d/0x0.jpg?format=jpg&crop=1078,1078,x2,y0,safe&height=416&width=416&fit=bounds"
+		}
+	}
+]
