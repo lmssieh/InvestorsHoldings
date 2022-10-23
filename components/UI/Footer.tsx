@@ -10,7 +10,7 @@ function Footer() {
 					target="_blank"
 					rel="noreferrer"
 				>
-					lmssieh
+					lmssieh ↗︎
 				</a>
 			</span>
 			<span className="inline-block text-gray-400/50 text-size-[0.7rem] pb-2">
