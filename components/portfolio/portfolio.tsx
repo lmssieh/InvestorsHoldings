@@ -76,8 +76,8 @@ function portfolio({ holdings }) {
 		<div>
 			<div className=" text-white">
 				<h2 className="py-4 font-bold text-xl">Holdings</h2>
-				<div className="flex flex-wrap children:flex-1">
-					<div className="min-w-[400px] m-auto ">
+				<div className="flex flex-wrap flex-col-reverse md:(flex-row flex-nowrap) children:flex-1">
+					<div className="min-w-[400px] md:m-auto ">
 						<div className="grid grid-cols-[.4fr,1fr,1.3fr,5fr] m-auto text-center children:py-1">
 							<span></span>
 							<span>SYM</span>
@@ -106,7 +106,7 @@ function portfolio({ holdings }) {
 							);
 						})}
 					</div>
-					<div className="py-8 self-start">
+					<div className="py-8 self-start mx-auto md:mx-0">
 						<PieChart
 							data={mock}
 							radius={40}
