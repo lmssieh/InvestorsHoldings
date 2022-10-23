@@ -11,7 +11,7 @@ function investors({ people }: Props) {
 		<div className="flex flex-wrap gap-4 ">
 			{people.map((person) => (
 				<Investor key={person.name}>
-					<div className=" ">
+					<div className="cursor-pointer hover:(text-red-400) ">
 						<div className="h-[305px] w-[208px] m-auto rounded-md overflow-hidden">
 							<img
 								src={person.personInfo.image}
@@ -19,8 +19,8 @@ function investors({ people }: Props) {
 								className="inline-block w-full h-full object-cover object-center"
 							/>
 						</div>
-						<Link href={`/investor/${person.name}`}>
-							<a className="inline-block py-1 font-bold text-md hover:(text-red-400 underline)">
+						<Link href={`/investor/${person.name.replaceAll(" ", "_")}`}>
+							<a className="inline-block py-1 font-bold text-md ">
 								{person.name}
 							</a>
 						</Link>
