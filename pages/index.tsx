@@ -2,16 +2,12 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Investors from "../components/investors/investors";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import supabase from "../config/supabaseClient";
+import useFetchSupabase from "../hooks/useFetchSupabase";
 
-const Home: NextPage = () => {
-	const [people, setPeople] = useState([]);
-	useEffect(() => {
-		fetch("/people.json")
-			.then((r) => r.json())
-			.then((d) => setPeople(d));
-	}, []);
-
+const Home: NextPage = ({ people }) => {
+	console.log("home loaded", people);
 	return (
 		<div>
 			<Head>
@@ -27,18 +23,18 @@ const Home: NextPage = () => {
 	);
 };
 
-// export async function getStaticProps(context) {
-// 	const data = await fetch("/assets/people.json");
-// 	const res = await data.json();
+export async function getStaticProps(context) {
+	const { data: people, error } = await supabase.from("investors").select();
 
-// 	console.log("kewl");
-// 	console.log(res);
-// 	return {
-// 		props: {
-// 			people: res,
-// 			kewl: "kewl",
-// 		}, // will be passed to the page component as props
-// 	};
-// }
+	if (error) {
+		console.error(error);
+	}
+
+	return {
+		props: {
+			people,
+		},
+	};
+}
 
 export default Home;

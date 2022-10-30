@@ -61,15 +61,6 @@ function portfolio({ holdings }) {
 			color: colors[index],
 		};
 	});
-	const o = [
-		["LOW", "LOWES COS INC", "COM", "169656105", 1782910, 23.9],
-		["CMG", "CHIPOTLE MEXICAN GRILL INC", "COM", "169656105", 1444794, 19.4],
-		["QSR", "RESTAURANT BRANDS INTL INC", "COM", "76131D103", 1194705, 16],
-		["HLT", "HILTON WORLDWIDE HLDGS INC", "COM", "43300A203", 1104215, 14.8],
-		["HHC", "HOWARD HUGHES CORP", "COM", "44267D107", 926852, 12.4],
-		["DPZ", "DOMINOS PIZZA INC", "COM", "25754A201", 803314, 10.8],
-		["CP", "CANADIAN PAC RY LTD", "COM", "13645T100", 205627, 2.8],
-	];
 
 	console.log(mock);
 	return (
